@@ -5,7 +5,7 @@ len++;
 int*p=NULL;
 p=(int*)malloc(sizeof(int)*len);
 while((* p++ = * src++) != '\0')
-;
+{}
 *p='\0';
 return p;
 }
